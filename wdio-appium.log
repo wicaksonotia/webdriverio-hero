@@ -1,0 +1,301 @@
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"iOS","appium:orientation":"PORTRAIT","appium:deviceName":"iPad mini 5","appium:platformVersion":"16.4","appium:automationName":"XCUItest","appium:app":"/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa","appium:appActivity":".MainActivity","appium:appPackage":"com.pmi.limited.PMIAPPM05725.ins.qa","appium:noReset":true,"appium:newCommandTimeout":240},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"iOS","appium:orientation":"PORTRAIT","appium:deviceName":"iPad mini 5","appium:platformVersion":"16.4","appium:automationName":"XCUItest","appium:app":"/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa","appium:appActivity":".MainActivity","appium:appPackage":"com.pmi.limited.PMIAPPM05725.ins.qa","appium:noReset":true,"appium:newCommandTimeout":240}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"iOS","appium:orientation":"PORTRAIT","appium:deviceName":"iPad mini 5","appium:platformVersion":"16.4","appium:automationName":"XCUItest","appium:app":"/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa","appium:appActivity":".MainActivity","appium:appPackage":"com.pmi.limited.PMIAPPM05725.ins.qa","appium:noReset":true,"appium:newCommandTimeout":240},null,{"alwaysMatch":{"platformName":"iOS","appium:orientation":"PORTRAIT","appium:deviceName":"iPad mini 5","appium:platformVersion":"16.4","appium:automationName":"XCUItest","appium:app":"/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa","appium:appActivity":".MainActivity","appium:appPackage":"com.pmi.limited.PMIAPPM05725.ins.qa","appium:noReset":true,"appium:newCommandTimeout":240},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1683012896714 (14:34:56 GMT+0700 (Western Indonesia Time))
+[35m[Appium][39m Appium v1.22.3 creating new XCUITestDriver (v3.59.0) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "iOS",
+[debug] [35m[BaseDriver][39m     "appium:orientation": "PORTRAIT",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "iPad mini 5",
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "16.4",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "XCUItest",
+[debug] [35m[BaseDriver][39m     "appium:app": "/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa",
+[debug] [35m[BaseDriver][39m     "appium:appActivity": ".MainActivity",
+[debug] [35m[BaseDriver][39m     "appium:appPackage": "com.pmi.limited.PMIAPPM05725.ins.qa",
+[debug] [35m[BaseDriver][39m     "appium:noReset": true,
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 240
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   appActivity
+[35m[BaseDriver][39m   appPackage
+[35m[BaseDriver][39m Session created with session id: 9f56e4a6-1f7c-4665-a619-e8227f9b4490
+[debug] [35m[XCUITest][39m Current user: 'tiawicaksono'
+[35m[XCUITest][39m iOS SDK Version set to '16.4'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 14.3 with udid '2195ABB9-BEF9-449B-BB58-1F3BADB09051'
+[35m[XCUITest][39m Determining device to run tests on: udid: '2195ABB9-BEF9-449B-BB58-1F3BADB09051', real device: false
+[debug] [35m[BaseDriver][39m Event 'xcodeDetailsRetrieved' logged at 1683012896995 (14:34:56 GMT+0700 (Western Indonesia Time))
+[35m[BaseDriver][39m Using local app '/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa'
+[debug] [35m[BaseDriver][39m Unzipping '/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa'
+[debug] [35m[BaseDriver][39m Enforcing UTF-8 encoding on the extracted file names for 'AYO SRC HERO QA HMS 1-65.ipa'
+dbug Support Found '%s' at '%s'
+dbug Support unzip
+dbug Support /usr/bin/unzip
+[debug] [35m[BaseDriver][39m Extracted 1 bundle item from '/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa' in 363ms: Payload/AYO SRC HERO.app
+[35m[BaseDriver][39m Assuming 'Payload/AYO SRC HERO.app' is the correct bundle
+[35m[BaseDriver][39m Unzipped local app to '/var/folders/dg/kxs57gqj6n7crdccr76qvbgr0000gn/T/202342-31040-19pf74q.hf1a/AYO SRC HERO.app'
+[debug] [35m[BaseDriver][39m Event 'appConfigured' logged at 1683012897407 (14:34:57 GMT+0700 (Western Indonesia Time))
+[debug] [35m[XCUITest][39m Checking whether app '/var/folders/dg/kxs57gqj6n7crdccr76qvbgr0000gn/T/202342-31040-19pf74q.hf1a/AYO SRC HERO.app' is actually present on file system
+[debug] [35m[XCUITest][39m App is present
+[debug] [35m[XCUITest][39m Getting bundle ID from app '/var/folders/dg/kxs57gqj6n7crdccr76qvbgr0000gn/T/202342-31040-19pf74q.hf1a/AYO SRC HERO.app': 'com.pmi.limited.PMIAPPM05725.qa'
+[debug] [35m[BaseDriver][39m Event 'resetStarted' logged at 1683012897411 (14:34:57 GMT+0700 (Western Indonesia Time))
+[debug] [35m[XCUITest][39m Reset: noReset is on. Leaving simulator as is
+[debug] [35m[BaseDriver][39m Event 'resetComplete' logged at 1683012897411 (14:34:57 GMT+0700 (Western Indonesia Time))
+[35m[WebDriverAgent][39m Using WDA path: '/opt/homebrew/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/opt/homebrew/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] [35m[IOSSimulatorLog][39m Starting log capture for iOS Simulator with udid '2195ABB9-BEF9-449B-BB58-1F3BADB09051' using simctl
+[debug] [35m[BaseDriver][39m Event 'logCaptureStarted' logged at 1683012897651 (14:34:57 GMT+0700 (Western Indonesia Time))
+[35m[XCUITest][39m Setting up simulator
+[debug] [35m[XCUITest][39m No reason to set locale
+[debug] [35m[XCUITest][39m No iOS / app preferences to set
+[debug] [35m[XCUITest][39m Setting did not need to be updated
+[debug] [35m[iOSSim][39m Setting preferences of 2195ABB9-BEF9-449B-BB58-1F3BADB09051 Simulator to {"SimulatorWindowOrientation":"Portrait","SimulatorWindowRotationAngle":0,"ConnectHardwareKeyboard":false}
+[debug] [35m[iOSSim][39m Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
+[debug] [35m[iOSSim][39m Updated 2195ABB9-BEF9-449B-BB58-1F3BADB09051 Simulator preferences at '/Users/tiawicaksono/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"2195ABB9-BEF9-449B-BB58-1F3BADB09051":{"SimulatorExternalDisplay":2114,"SimulatorWindowOrientation":"Portrait","SimulatorWindowRotationAngle":0,"ChromeTint":"","ConnectHardwareKeyboard":false}}}
+[debug] [35m[iOSSim][39m Got Simulator UI client PID: 4888
+[35m[iOSSim][39m Both Simulator with UDID '2195ABB9-BEF9-449B-BB58-1F3BADB09051' and the UI client are currently running
+[debug] [35m[BaseDriver][39m Event 'simStarted' logged at 1683012898354 (14:34:58 GMT+0700 (Western Indonesia Time))
+[debug] [35m[XCUITest][39m Verifying application platform
+[debug] [35m[XCUITest][39m CFBundleSupportedPlatforms: ["iPhoneOS"]
+[35m[XCUITest][39m {}
+[35m[DevCon Factory][39m Releasing connections for 2195ABB9-BEF9-449B-BB58-1F3BADB09051 device on any port number
+[35m[DevCon Factory][39m No cached connections have been found
+[debug] [35m[XCUITest][39m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [35m[IOSSimulatorLog][39m Stopping iOS log capture
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1683012898359 (14:34:58 GMT+0700 (Western Indonesia Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Simulator architecture is unsupported by the '/var/folders/dg/kxs57gqj6n7crdccr76qvbgr0000gn/T/202342-31040-19pf74q.hf1a/AYO SRC HERO.app' application. Make sure the correct deployment target has been selected for its compilation in Xcode.
+[debug] [35m[W3C][39m     at verifyApplicationPlatform (/opt/homebrew/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/app-utils.js:64:11)
+[debug] [35m[W3C][39m     at XCUITestDriver.installAUT (/opt/homebrew/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:1189:5)
+[debug] [35m[W3C][39m     at XCUITestDriver.start (/opt/homebrew/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:474:7)
+[debug] [35m[W3C][39m     at XCUITestDriver.createSession (/opt/homebrew/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:255:7)
+[debug] [35m[W3C][39m     at AppiumDriver.createSession (/opt/homebrew/lib/node_modules/appium/lib/appium.js:387:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m1670 ms - 981[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"iOS","appium:orientation":"PORTRAIT","appium:deviceName":"iPad mini 5","appium:platformVersion":"16.4","appium:automationName":"XCUItest","appium:app":"/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa","appium:appActivity":".MainActivity","appium:appPackage":"com.pmi.limited.PMIAPPM05725.ins.qa","appium:noReset":true,"appium:newCommandTimeout":240},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"iOS","appium:orientation":"PORTRAIT","appium:deviceName":"iPad mini 5","appium:platformVersion":"16.4","appium:automationName":"XCUItest","appium:app":"/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa","appium:appActivity":".MainActivity","appium:appPackage":"com.pmi.limited.PMIAPPM05725.ins.qa","appium:noReset":true,"appium:newCommandTimeout":240}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"iOS","appium:orientation":"PORTRAIT","appium:deviceName":"iPad mini 5","appium:platformVersion":"16.4","appium:automationName":"XCUItest","appium:app":"/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa","appium:appActivity":".MainActivity","appium:appPackage":"com.pmi.limited.PMIAPPM05725.ins.qa","appium:noReset":true,"appium:newCommandTimeout":240},null,{"alwaysMatch":{"platformName":"iOS","appium:orientation":"PORTRAIT","appium:deviceName":"iPad mini 5","appium:platformVersion":"16.4","appium:automationName":"XCUItest","appium:app":"/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa","appium:appActivity":".MainActivity","appium:appPackage":"com.pmi.limited.PMIAPPM05725.ins.qa","appium:noReset":true,"appium:newCommandTimeout":240},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1683012898441 (14:34:58 GMT+0700 (Western Indonesia Time))
+[35m[Appium][39m Appium v1.22.3 creating new XCUITestDriver (v3.59.0) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "iOS",
+[debug] [35m[BaseDriver][39m     "appium:orientation": "PORTRAIT",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "iPad mini 5",
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "16.4",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "XCUItest",
+[debug] [35m[BaseDriver][39m     "appium:app": "/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa",
+[debug] [35m[BaseDriver][39m     "appium:appActivity": ".MainActivity",
+[debug] [35m[BaseDriver][39m     "appium:appPackage": "com.pmi.limited.PMIAPPM05725.ins.qa",
+[debug] [35m[BaseDriver][39m     "appium:noReset": true,
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 240
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   appActivity
+[35m[BaseDriver][39m   appPackage
+[35m[BaseDriver][39m Session created with session id: 3126e4e3-ca8c-4804-bf4c-3372401990b2
+[debug] [35m[XCUITest][39m Current user: 'tiawicaksono'
+[35m[XCUITest][39m iOS SDK Version set to '16.4'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 14.3 with udid '2195ABB9-BEF9-449B-BB58-1F3BADB09051'
+[35m[XCUITest][39m Determining device to run tests on: udid: '2195ABB9-BEF9-449B-BB58-1F3BADB09051', real device: false
+[debug] [35m[BaseDriver][39m Event 'xcodeDetailsRetrieved' logged at 1683012898533 (14:34:58 GMT+0700 (Western Indonesia Time))
+[35m[BaseDriver][39m Using local app '/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa'
+[35m[BaseDriver][39m Will reuse previously cached application at '/var/folders/dg/kxs57gqj6n7crdccr76qvbgr0000gn/T/202342-31040-19pf74q.hf1a/AYO SRC HERO.app'
+[debug] [35m[BaseDriver][39m Event 'appConfigured' logged at 1683012898555 (14:34:58 GMT+0700 (Western Indonesia Time))
+[debug] [35m[XCUITest][39m Checking whether app '/var/folders/dg/kxs57gqj6n7crdccr76qvbgr0000gn/T/202342-31040-19pf74q.hf1a/AYO SRC HERO.app' is actually present on file system
+[debug] [35m[XCUITest][39m App is present
+[debug] [35m[XCUITest][39m Getting bundle ID from app '/var/folders/dg/kxs57gqj6n7crdccr76qvbgr0000gn/T/202342-31040-19pf74q.hf1a/AYO SRC HERO.app': 'com.pmi.limited.PMIAPPM05725.qa'
+[debug] [35m[BaseDriver][39m Event 'resetStarted' logged at 1683012898557 (14:34:58 GMT+0700 (Western Indonesia Time))
+[debug] [35m[XCUITest][39m Reset: noReset is on. Leaving simulator as is
+[debug] [35m[BaseDriver][39m Event 'resetComplete' logged at 1683012898557 (14:34:58 GMT+0700 (Western Indonesia Time))
+[35m[WebDriverAgent][39m Using WDA path: '/opt/homebrew/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/opt/homebrew/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] [35m[IOSSimulatorLog][39m Starting log capture for iOS Simulator with udid '2195ABB9-BEF9-449B-BB58-1F3BADB09051' using simctl
+[debug] [35m[BaseDriver][39m Event 'logCaptureStarted' logged at 1683012898754 (14:34:58 GMT+0700 (Western Indonesia Time))
+[35m[XCUITest][39m Setting up simulator
+[debug] [35m[XCUITest][39m No reason to set locale
+[debug] [35m[XCUITest][39m No iOS / app preferences to set
+[debug] [35m[XCUITest][39m Setting did not need to be updated
+[debug] [35m[iOSSim][39m Setting preferences of 2195ABB9-BEF9-449B-BB58-1F3BADB09051 Simulator to {"SimulatorWindowOrientation":"Portrait","SimulatorWindowRotationAngle":0,"ConnectHardwareKeyboard":false}
+[debug] [35m[iOSSim][39m Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
+[debug] [35m[iOSSim][39m Updated 2195ABB9-BEF9-449B-BB58-1F3BADB09051 Simulator preferences at '/Users/tiawicaksono/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"2195ABB9-BEF9-449B-BB58-1F3BADB09051":{"SimulatorExternalDisplay":2114,"ConnectHardwareKeyboard":false,"SimulatorWindowOrientation":"Portrait","SimulatorWindowRotationAngle":0,"ChromeTint":""}}}
+[debug] [35m[iOSSim][39m Got Simulator UI client PID: 4888
+[35m[iOSSim][39m Both Simulator with UDID '2195ABB9-BEF9-449B-BB58-1F3BADB09051' and the UI client are currently running
+[debug] [35m[BaseDriver][39m Event 'simStarted' logged at 1683012899318 (14:34:59 GMT+0700 (Western Indonesia Time))
+[debug] [35m[XCUITest][39m Verifying application platform
+[debug] [35m[XCUITest][39m CFBundleSupportedPlatforms: ["iPhoneOS"]
+[35m[XCUITest][39m {}
+[35m[DevCon Factory][39m Releasing connections for 2195ABB9-BEF9-449B-BB58-1F3BADB09051 device on any port number
+[35m[DevCon Factory][39m No cached connections have been found
+[debug] [35m[XCUITest][39m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [35m[IOSSimulatorLog][39m Stopping iOS log capture
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1683012899332 (14:34:59 GMT+0700 (Western Indonesia Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Simulator architecture is unsupported by the '/var/folders/dg/kxs57gqj6n7crdccr76qvbgr0000gn/T/202342-31040-19pf74q.hf1a/AYO SRC HERO.app' application. Make sure the correct deployment target has been selected for its compilation in Xcode.
+[debug] [35m[W3C][39m     at verifyApplicationPlatform (/opt/homebrew/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/app-utils.js:64:11)
+[debug] [35m[W3C][39m     at XCUITestDriver.installAUT (/opt/homebrew/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:1189:5)
+[debug] [35m[W3C][39m     at XCUITestDriver.start (/opt/homebrew/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:474:7)
+[debug] [35m[W3C][39m     at XCUITestDriver.createSession (/opt/homebrew/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:255:7)
+[debug] [35m[W3C][39m     at AppiumDriver.createSession (/opt/homebrew/lib/node_modules/appium/lib/appium.js:387:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m893 ms - 981[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"iOS","appium:orientation":"PORTRAIT","appium:deviceName":"iPad mini 5","appium:platformVersion":"16.4","appium:automationName":"XCUItest","appium:app":"/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa","appium:appActivity":".MainActivity","appium:appPackage":"com.pmi.limited.PMIAPPM05725.ins.qa","appium:noReset":true,"appium:newCommandTimeout":240},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"iOS","appium:orientation":"PORTRAIT","appium:deviceName":"iPad mini 5","appium:platformVersion":"16.4","appium:automationName":"XCUItest","appium:app":"/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa","appium:appActivity":".MainActivity","appium:appPackage":"com.pmi.limited.PMIAPPM05725.ins.qa","appium:noReset":true,"appium:newCommandTimeout":240}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"iOS","appium:orientation":"PORTRAIT","appium:deviceName":"iPad mini 5","appium:platformVersion":"16.4","appium:automationName":"XCUItest","appium:app":"/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa","appium:appActivity":".MainActivity","appium:appPackage":"com.pmi.limited.PMIAPPM05725.ins.qa","appium:noReset":true,"appium:newCommandTimeout":240},null,{"alwaysMatch":{"platformName":"iOS","appium:orientation":"PORTRAIT","appium:deviceName":"iPad mini 5","appium:platformVersion":"16.4","appium:automationName":"XCUItest","appium:app":"/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa","appium:appActivity":".MainActivity","appium:appPackage":"com.pmi.limited.PMIAPPM05725.ins.qa","appium:noReset":true,"appium:newCommandTimeout":240},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1683012899341 (14:34:59 GMT+0700 (Western Indonesia Time))
+[35m[Appium][39m Appium v1.22.3 creating new XCUITestDriver (v3.59.0) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "iOS",
+[debug] [35m[BaseDriver][39m     "appium:orientation": "PORTRAIT",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "iPad mini 5",
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "16.4",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "XCUItest",
+[debug] [35m[BaseDriver][39m     "appium:app": "/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa",
+[debug] [35m[BaseDriver][39m     "appium:appActivity": ".MainActivity",
+[debug] [35m[BaseDriver][39m     "appium:appPackage": "com.pmi.limited.PMIAPPM05725.ins.qa",
+[debug] [35m[BaseDriver][39m     "appium:noReset": true,
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 240
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   appActivity
+[35m[BaseDriver][39m   appPackage
+[35m[BaseDriver][39m Session created with session id: 048f7e54-50f1-437c-aeff-277a4f192e3b
+[debug] [35m[XCUITest][39m Current user: 'tiawicaksono'
+[35m[XCUITest][39m iOS SDK Version set to '16.4'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 14.3 with udid '2195ABB9-BEF9-449B-BB58-1F3BADB09051'
+[35m[XCUITest][39m Determining device to run tests on: udid: '2195ABB9-BEF9-449B-BB58-1F3BADB09051', real device: false
+[debug] [35m[BaseDriver][39m Event 'xcodeDetailsRetrieved' logged at 1683012899527 (14:34:59 GMT+0700 (Western Indonesia Time))
+[35m[BaseDriver][39m Using local app '/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa'
+[35m[BaseDriver][39m Will reuse previously cached application at '/var/folders/dg/kxs57gqj6n7crdccr76qvbgr0000gn/T/202342-31040-19pf74q.hf1a/AYO SRC HERO.app'
+[debug] [35m[BaseDriver][39m Event 'appConfigured' logged at 1683012899549 (14:34:59 GMT+0700 (Western Indonesia Time))
+[debug] [35m[XCUITest][39m Checking whether app '/var/folders/dg/kxs57gqj6n7crdccr76qvbgr0000gn/T/202342-31040-19pf74q.hf1a/AYO SRC HERO.app' is actually present on file system
+[debug] [35m[XCUITest][39m App is present
+[debug] [35m[XCUITest][39m Getting bundle ID from app '/var/folders/dg/kxs57gqj6n7crdccr76qvbgr0000gn/T/202342-31040-19pf74q.hf1a/AYO SRC HERO.app': 'com.pmi.limited.PMIAPPM05725.qa'
+[debug] [35m[BaseDriver][39m Event 'resetStarted' logged at 1683012899551 (14:34:59 GMT+0700 (Western Indonesia Time))
+[debug] [35m[XCUITest][39m Reset: noReset is on. Leaving simulator as is
+[debug] [35m[BaseDriver][39m Event 'resetComplete' logged at 1683012899551 (14:34:59 GMT+0700 (Western Indonesia Time))
+[35m[WebDriverAgent][39m Using WDA path: '/opt/homebrew/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/opt/homebrew/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] [35m[IOSSimulatorLog][39m Starting log capture for iOS Simulator with udid '2195ABB9-BEF9-449B-BB58-1F3BADB09051' using simctl
+[debug] [35m[BaseDriver][39m Event 'logCaptureStarted' logged at 1683012899790 (14:34:59 GMT+0700 (Western Indonesia Time))
+[35m[XCUITest][39m Setting up simulator
+[debug] [35m[XCUITest][39m No reason to set locale
+[debug] [35m[XCUITest][39m No iOS / app preferences to set
+[debug] [35m[XCUITest][39m Setting did not need to be updated
+[debug] [35m[iOSSim][39m Setting preferences of 2195ABB9-BEF9-449B-BB58-1F3BADB09051 Simulator to {"SimulatorWindowOrientation":"Portrait","SimulatorWindowRotationAngle":0,"ConnectHardwareKeyboard":false}
+[debug] [35m[iOSSim][39m Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
+[debug] [35m[WebDriverAgent][39m Parsed BUILD_DIR configuration value: '/Users/tiawicaksono/Library/Developer/Xcode/DerivedData/WebDriverAgent-fxmsedpwfaalxlbcwefbceeuodem/Build/Products'
+[debug] [35m[WebDriverAgent][39m Got derived data root: '/Users/tiawicaksono/Library/Developer/Xcode/DerivedData/WebDriverAgent-fxmsedpwfaalxlbcwefbceeuodem'
+[debug] [35m[WebDriverAgent][39m Parsed BUILD_DIR configuration value: '/Users/tiawicaksono/Library/Developer/Xcode/DerivedData/WebDriverAgent-fxmsedpwfaalxlbcwefbceeuodem/Build/Products'
+[debug] [35m[WebDriverAgent][39m Got derived data root: '/Users/tiawicaksono/Library/Developer/Xcode/DerivedData/WebDriverAgent-fxmsedpwfaalxlbcwefbceeuodem'
+[debug] [35m[WebDriverAgent][39m Parsed BUILD_DIR configuration value: '/Users/tiawicaksono/Library/Developer/Xcode/DerivedData/WebDriverAgent-fxmsedpwfaalxlbcwefbceeuodem/Build/Products'
+[debug] [35m[WebDriverAgent][39m Got derived data root: '/Users/tiawicaksono/Library/Developer/Xcode/DerivedData/WebDriverAgent-fxmsedpwfaalxlbcwefbceeuodem'
+[debug] [35m[iOSSim][39m Updated 2195ABB9-BEF9-449B-BB58-1F3BADB09051 Simulator preferences at '/Users/tiawicaksono/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"2195ABB9-BEF9-449B-BB58-1F3BADB09051":{"SimulatorExternalDisplay":2114,"ConnectHardwareKeyboard":false,"SimulatorWindowOrientation":"Portrait","SimulatorWindowRotationAngle":0,"ChromeTint":""}}}
+[debug] [35m[iOSSim][39m Got Simulator UI client PID: 4888
+[35m[iOSSim][39m Both Simulator with UDID '2195ABB9-BEF9-449B-BB58-1F3BADB09051' and the UI client are currently running
+[debug] [35m[BaseDriver][39m Event 'simStarted' logged at 1683012906260 (14:35:06 GMT+0700 (Western Indonesia Time))
+[debug] [35m[XCUITest][39m Verifying application platform
+[debug] [35m[XCUITest][39m CFBundleSupportedPlatforms: ["iPhoneOS"]
+[35m[XCUITest][39m {}
+[35m[DevCon Factory][39m Releasing connections for 2195ABB9-BEF9-449B-BB58-1F3BADB09051 device on any port number
+[35m[DevCon Factory][39m No cached connections have been found
+[debug] [35m[XCUITest][39m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [35m[IOSSimulatorLog][39m Stopping iOS log capture
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1683012906266 (14:35:06 GMT+0700 (Western Indonesia Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Simulator architecture is unsupported by the '/var/folders/dg/kxs57gqj6n7crdccr76qvbgr0000gn/T/202342-31040-19pf74q.hf1a/AYO SRC HERO.app' application. Make sure the correct deployment target has been selected for its compilation in Xcode.
+[debug] [35m[W3C][39m     at verifyApplicationPlatform (/opt/homebrew/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/app-utils.js:64:11)
+[debug] [35m[W3C][39m     at XCUITestDriver.installAUT (/opt/homebrew/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:1189:5)
+[debug] [35m[W3C][39m     at XCUITestDriver.start (/opt/homebrew/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:474:7)
+[debug] [35m[W3C][39m     at XCUITestDriver.createSession (/opt/homebrew/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:255:7)
+[debug] [35m[W3C][39m     at AppiumDriver.createSession (/opt/homebrew/lib/node_modules/appium/lib/appium.js:387:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m6928 ms - 981[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"iOS","appium:orientation":"PORTRAIT","appium:deviceName":"iPad mini 5","appium:platformVersion":"16.4","appium:automationName":"XCUItest","appium:app":"/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa","appium:appActivity":".MainActivity","appium:appPackage":"com.pmi.limited.PMIAPPM05725.ins.qa","appium:noReset":true,"appium:newCommandTimeout":240},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"iOS","appium:orientation":"PORTRAIT","appium:deviceName":"iPad mini 5","appium:platformVersion":"16.4","appium:automationName":"XCUItest","appium:app":"/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa","appium:appActivity":".MainActivity","appium:appPackage":"com.pmi.limited.PMIAPPM05725.ins.qa","appium:noReset":true,"appium:newCommandTimeout":240}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"iOS","appium:orientation":"PORTRAIT","appium:deviceName":"iPad mini 5","appium:platformVersion":"16.4","appium:automationName":"XCUItest","appium:app":"/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa","appium:appActivity":".MainActivity","appium:appPackage":"com.pmi.limited.PMIAPPM05725.ins.qa","appium:noReset":true,"appium:newCommandTimeout":240},null,{"alwaysMatch":{"platformName":"iOS","appium:orientation":"PORTRAIT","appium:deviceName":"iPad mini 5","appium:platformVersion":"16.4","appium:automationName":"XCUItest","appium:app":"/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa","appium:appActivity":".MainActivity","appium:appPackage":"com.pmi.limited.PMIAPPM05725.ins.qa","appium:noReset":true,"appium:newCommandTimeout":240},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1683012906272 (14:35:06 GMT+0700 (Western Indonesia Time))
+[35m[Appium][39m Appium v1.22.3 creating new XCUITestDriver (v3.59.0) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "iOS",
+[debug] [35m[BaseDriver][39m     "appium:orientation": "PORTRAIT",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "iPad mini 5",
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "16.4",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "XCUItest",
+[debug] [35m[BaseDriver][39m     "appium:app": "/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa",
+[debug] [35m[BaseDriver][39m     "appium:appActivity": ".MainActivity",
+[debug] [35m[BaseDriver][39m     "appium:appPackage": "com.pmi.limited.PMIAPPM05725.ins.qa",
+[debug] [35m[BaseDriver][39m     "appium:noReset": true,
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 240
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   appActivity
+[35m[BaseDriver][39m   appPackage
+[35m[BaseDriver][39m Session created with session id: a7141afa-76fd-404f-9bf5-b859edaa7085
+[debug] [35m[XCUITest][39m Current user: 'tiawicaksono'
+[35m[XCUITest][39m iOS SDK Version set to '16.4'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 14.3 with udid '2195ABB9-BEF9-449B-BB58-1F3BADB09051'
+[35m[XCUITest][39m Determining device to run tests on: udid: '2195ABB9-BEF9-449B-BB58-1F3BADB09051', real device: false
+[debug] [35m[BaseDriver][39m Event 'xcodeDetailsRetrieved' logged at 1683012906359 (14:35:06 GMT+0700 (Western Indonesia Time))
+[35m[BaseDriver][39m Using local app '/Users/tiawicaksono/Documents/AYO SRC Hero/apps/AYO SRC HERO QA HMS 1-65.ipa'
+[35m[BaseDriver][39m Will reuse previously cached application at '/var/folders/dg/kxs57gqj6n7crdccr76qvbgr0000gn/T/202342-31040-19pf74q.hf1a/AYO SRC HERO.app'
+[debug] [35m[BaseDriver][39m Event 'appConfigured' logged at 1683012906452 (14:35:06 GMT+0700 (Western Indonesia Time))
+[debug] [35m[XCUITest][39m Checking whether app '/var/folders/dg/kxs57gqj6n7crdccr76qvbgr0000gn/T/202342-31040-19pf74q.hf1a/AYO SRC HERO.app' is actually present on file system
+[debug] [35m[XCUITest][39m App is present
+[debug] [35m[XCUITest][39m Getting bundle ID from app '/var/folders/dg/kxs57gqj6n7crdccr76qvbgr0000gn/T/202342-31040-19pf74q.hf1a/AYO SRC HERO.app': 'com.pmi.limited.PMIAPPM05725.qa'
+[debug] [35m[BaseDriver][39m Event 'resetStarted' logged at 1683012906454 (14:35:06 GMT+0700 (Western Indonesia Time))
+[debug] [35m[XCUITest][39m Reset: noReset is on. Leaving simulator as is
+[debug] [35m[BaseDriver][39m Event 'resetComplete' logged at 1683012906454 (14:35:06 GMT+0700 (Western Indonesia Time))
+[35m[WebDriverAgent][39m Using WDA path: '/opt/homebrew/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/opt/homebrew/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] [35m[IOSSimulatorLog][39m Starting log capture for iOS Simulator with udid '2195ABB9-BEF9-449B-BB58-1F3BADB09051' using simctl
+[debug] [35m[BaseDriver][39m Event 'logCaptureStarted' logged at 1683012906678 (14:35:06 GMT+0700 (Western Indonesia Time))
+[35m[XCUITest][39m Setting up simulator
+[debug] [35m[XCUITest][39m No reason to set locale
+[debug] [35m[XCUITest][39m No iOS / app preferences to set
+[debug] [35m[XCUITest][39m Setting did not need to be updated
+[debug] [35m[iOSSim][39m Setting preferences of 2195ABB9-BEF9-449B-BB58-1F3BADB09051 Simulator to {"SimulatorWindowOrientation":"Portrait","SimulatorWindowRotationAngle":0,"ConnectHardwareKeyboard":false}
+[debug] [35m[iOSSim][39m Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
+[debug] [35m[WebDriverAgent][39m Parsed BUILD_DIR configuration value: '/Users/tiawicaksono/Library/Developer/Xcode/DerivedData/WebDriverAgent-fxmsedpwfaalxlbcwefbceeuodem/Build/Products'
+[debug] [35m[WebDriverAgent][39m Got derived data root: '/Users/tiawicaksono/Library/Developer/Xcode/DerivedData/WebDriverAgent-fxmsedpwfaalxlbcwefbceeuodem'
+[debug] [35m[iOSSim][39m Updated 2195ABB9-BEF9-449B-BB58-1F3BADB09051 Simulator preferences at '/Users/tiawicaksono/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"2195ABB9-BEF9-449B-BB58-1F3BADB09051":{"SimulatorExternalDisplay":2114,"ConnectHardwareKeyboard":false,"SimulatorWindowOrientation":"Portrait","SimulatorWindowRotationAngle":0,"ChromeTint":""}}}
+[debug] [35m[iOSSim][39m Got Simulator UI client PID: 4888
+[35m[iOSSim][39m Both Simulator with UDID '2195ABB9-BEF9-449B-BB58-1F3BADB09051' and the UI client are currently running
+[debug] [35m[BaseDriver][39m Event 'simStarted' logged at 1683012913123 (14:35:13 GMT+0700 (Western Indonesia Time))
+[debug] [35m[XCUITest][39m Verifying application platform
+[debug] [35m[XCUITest][39m CFBundleSupportedPlatforms: ["iPhoneOS"]
+[35m[XCUITest][39m {}
+[35m[DevCon Factory][39m Releasing connections for 2195ABB9-BEF9-449B-BB58-1F3BADB09051 device on any port number
+[35m[DevCon Factory][39m No cached connections have been found
+[debug] [35m[XCUITest][39m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [35m[IOSSimulatorLog][39m Stopping iOS log capture
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1683012913128 (14:35:13 GMT+0700 (Western Indonesia Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Simulator architecture is unsupported by the '/var/folders/dg/kxs57gqj6n7crdccr76qvbgr0000gn/T/202342-31040-19pf74q.hf1a/AYO SRC HERO.app' application. Make sure the correct deployment target has been selected for its compilation in Xcode.
+[debug] [35m[W3C][39m     at verifyApplicationPlatform (/opt/homebrew/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/app-utils.js:64:11)
+[debug] [35m[W3C][39m     at XCUITestDriver.installAUT (/opt/homebrew/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:1189:5)
+[debug] [35m[W3C][39m     at XCUITestDriver.start (/opt/homebrew/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:474:7)
+[debug] [35m[W3C][39m     at XCUITestDriver.createSession (/opt/homebrew/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:255:7)
+[debug] [35m[W3C][39m     at AppiumDriver.createSession (/opt/homebrew/lib/node_modules/appium/lib/appium.js:387:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m6857 ms - 981[39m
+[35m[HTTP][39m [90m[39m
+[35m[Appium][39m Received SIGTERM - shutting down
+[debug] [35m[Appium][39m There are no active sessions for cleanup
